@@ -1,0 +1,704 @@
+.my-account {
+    min-height: 900px;
+    min-width: calc(100% - 280px);
+}
+
+.settings .about-level {
+    background: #0B2275 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+    /* width: 1541px; */
+    min-height: 500px;
+    border-radius: 8px;
+    /* background-image: url("../../assets/images/cover-photo.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 60px;
+}
+
+.settings .profile-settings {
+    background: #0B2275 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+    /* width: 1540px; */
+    min-height: 756px;
+    margin-bottom: 112px;
+    border-radius: 12px;
+}
+
+.security,
+.email,
+.profile,
+.deleting-account,
+.address-book,
+.password,
+.financial-report,
+.completion,
+.additional-files,
+.address,
+.personal-document {
+    padding: 55px 30px;
+    /* min-height: 682px; */
+    box-shadow: none !important;
+    background-color: transparent;
+}
+
+.security strong {
+    font: normal normal bold 20px/26px Assistant !important;
+    letter-spacing: 0px;
+    color: #FFFFFF !important;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.security .accordion-item {
+    background: #0B2275 0% 0% no-repeat padding-box !important;
+    border: none !important;
+}
+
+.security .accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.security .accordion-button:not(.collapsed)::after {
+    background-image: none !important;
+    transform: rotate(90deg) !important;
+}
+
+.security  ul li span {
+    font: normal normal normal 18px/60px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    line-height: 22px !important;
+    min-width: 200px;
+    display: block;
+}
+
+.security  ul li {
+    margin-bottom: 45px;
+}
+
+.security .accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+}
+
+.security .accordion-button::after {
+    background-image: none !important;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    content: url("../../assets/images/Icon ionic-ios-move.svg") !important;
+}
+
+.tab-content>.active {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.security .accordion-button {
+    background: #0B2275 0% 0% no-repeat padding-box !important;
+    border: none !important;
+}
+
+.profile-photo {
+    position: absolute;
+    top: 114px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 212px;
+    height: 212px;
+    border-radius: 100%;
+    border: 10px solid #6d80c4;
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.cover {
+    height: 230px;
+}
+
+.cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.level-img {
+    position: absolute;
+    top: 270px;
+    /* bottom: -120px; */
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.profile-cover {
+    min-height: 390px;
+}
+
+.user-name {
+    padding: 0 30px;
+}
+
+.user-name strong {
+    font: normal normal bold 24px/32px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+
+.account-inputs {
+    width: 784px;
+    margin-bottom: 30px;
+}
+
+.account-inputs .country-code{width:100px;border-radius: 0%;padding: 10px;}
+/* .account-inputs .number-holder{border-left: none;} */
+/* .account-inputs .number-holder{width:240px;} */
+
+.account-inputs input,
+.persoanl .form-select,
+.phone .form-control {
+    border: 1px solid #6D80C4;
+    width: 100%;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.account-inputs input::placeholder {
+    font: normal normal normal 18px/32px Assistant;
+    letter-spacing: 0px;
+    color: #ffffff9a;
+    line-height: 22px;
+}
+
+.bank .table thead th {
+    min-width: 242px;
+}
+
+
+
+
+.history ::-webkit-scrollbar {
+    width: 5px;
+}
+
+.history ::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.history ::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background: #6779ba;
+    border-radius: 8px;
+}
+
+
+.account-inputs label,
+.phone label,
+.account-inputs-field label {
+    font: normal normal normal 18px/60px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    line-height: 22px !important;
+    min-width: 200px;
+    margin-bottom: 15px;
+}
+
+.password-input-account {
+    position: relative;
+}
+
+.circle-add {
+
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+.circle-add:hover {
+    background-color: #FFD046;
+    color: #fff;
+}
+
+/* .password-input-account::after {
+    position: absolute;
+    content: '.';
+    bottom: 8px;
+    background-image: url('../../assets/images/Icon awesome-eye.svg');
+    background-repeat: no-repeat;
+    width: 35px;
+    right: 10px;
+} */
+/* .password-input-account::before{
+    position: absolute;
+    content: '.';
+    cursor: pointer;
+    bottom: 8px;
+    background-image: url('../../assets/images/Icon awesome-eye.svg');
+    background-repeat: no-repeat;
+    width: 35px;
+    right: 10px;
+} */
+.eye-icon {
+    position: absolute;
+    bottom: 12px !important;
+    width: 35px;
+    right: 10px;
+    color: #6D80C4;
+    /* display: none; */
+}
+
+.eye-icon svg {
+    color: #6b81ce;
+}
+
+.profile-btn .dropdown button,
+.profile-btn .dropdown button:active {
+    width: fit-content;
+}
+
+.profile-btn .dropdown-menu.show {
+    width: -webkit-fill-available;
+}
+
+.login .eye-icon {
+    bottom: -3px !important;
+}
+
+.eye-icon-disabled {
+    position: absolute;
+    bottom: 12px;
+    width: 35px;
+    right: 10px;
+    color: #6D80C4;
+    display: none;
+}
+
+/* .page-link {
+    border-radius: 7px !important;
+    padding: 12px 18px !important;
+    background-color: transparent !important;
+    color: #fff !important;
+
+}
+
+.page-item {
+    margin: 0 2px;
+    color: #fff !important;
+    transition: all ease-in-out 0.3s;
+}
+
+.active-state .page-link {
+    background-color: #fff !important;
+    color: #0B2275 !important;
+    border-radius: 7px !important;
+
+}
+
+.page-item:hover .page-link {
+    background-color: #fff !important;
+    color: #0B2275 !important;
+    border-radius: 7px !important;
+
+} */
+
+.account-inputs-field {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.profile button,
+.about-level button,
+.password button,
+.email button,
+.account-level-details button,
+.deleting-account button,
+.address-book button,
+.phone button,
+.additional-files button,
+.address button,
+.personal-document button,
+.exchange-details button,.security button,button.btn-triage-div.btn-triage.btn.btn-secondary,.triage-model .modal-footer .pervious-btn {
+    background: #DBB74C 0% 0% no-repeat padding-box;
+    border: #DBB74C;
+    /* border-radius: 4px; */
+}
+.triage-select__option{color: #fff !important;}
+
+.deleting-account .card {
+    min-height: 336px;
+    /* border: 1px solid #6D80C4; */
+    /* background-color: #6D80C4; */
+
+
+    -webkit-box-shadow: 0 0 0 40px #0b2275 inset !important;
+    -webkit-text-fill-color: #fff !important;
+    background-color: transparent !important;
+    border: 1px solid #6D80C4;
+    border-radius: 8px;
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.deleting-account h2 {
+    font: normal normal normal 24px/60px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    line-height: 28px !important;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.deleting-account .card label {
+    font: normal normal normal 24px/60px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    line-height: 28px !important;
+    min-width: 200px;
+    margin-bottom: 30px;
+}
+
+.financial-report ul li {
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.financial-report span {
+    font: normal normal normal 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.financial-report strong {
+    font: normal normal medium 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.financial-report p {
+    font: normal normal normal 14px/18px Assistant;
+    letter-spacing: 0px;
+    color: #6D80C4;
+    margin-bottom: 40px;
+}
+
+.footer-report {
+    min-height: 100px;
+    background-color: #6D80C4;
+}
+
+.address-book p {
+    font: normal normal normal 24px/18px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    width: 400px;
+    line-height: 28px;
+    margin-bottom: 37px;
+}
+
+.triage-model .modal-content {
+    /* background: #FFD046 0% 0% no-repeat padding-box !important; */
+    background-color: #0b1d5e;
+    border: none;
+    /* width: max-content; */
+}
+
+.triage-model .modal-title {
+    font: normal normal bold 24px/32px Assistant;
+    letter-spacing: 0px;
+    /* color: #221d1d; */
+    /* margin-bottom: 60px; */
+    text-align: left;
+}
+
+.triage-model .modal-body,
+.triage-model .modal-header,
+.triage-model .modal-footer {
+    border: none;
+}
+
+.triage-model .modal-body strong {
+    font: normal normal bold 14px/18px Assistant !important;
+    letter-spacing: 0px;
+    color: #fff !important;
+    display: block;
+    margin-bottom: 34px;
+}
+
+.triage-model .modal-body label {
+    font: normal normal 600 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #221d1d;
+    margin-bottom: 15px;
+}
+
+.triage-model .modal-body .input-field {
+    width: 730px;
+    margin-bottom: 30px;
+}
+
+/* ,#react-select-2-listbox */
+.triage-model .modal-body .input-field input,
+.css-1f43avz-a11yText-A11yText {
+    width: 100%;
+    background-color: transparent !important;
+    border: 2px solid #e1e0e0;
+    /* color: #0000; */
+    padding: 10px 12px !important;
+    border-color: #e1e0e0 !important;
+    border-radius: 4px;
+}
+.triage-model .modal-body .input-field input:focus,.triage-model .modal-body .input-field input:target,
+.css-1f43avz-a11yText-A11yText:focus {
+border-color:#6d80c4 !important;}
+.triage-model .modal-footer button {
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #e1e0e0 !important;
+    min-width: 152px;
+}
+
+
+
+.triage-model .modal-footer button span {
+    font: normal normal 600 20px/26px Assistant;
+}
+
+/* .css-1okebmr-indicatorSeparator {
+    background-color: #221d1d !important;
+} */
+
+
+.google-icon {
+    color: #6D80C4;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.css-1s2u09g-control {
+    padding: 0px !important;
+    width: 100%;
+    background-color: transparent !important;
+    border: 2px solid #e1e0e0 !important;
+    color: #fff;
+    border-color: #e1e0e0 !important;
+}
+
+.modal-content button {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 19px 50px;
+    border: 1px solid #0b1d5e;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+.modal-content button span {
+    font: normal normal bold 18px/18px Assistant;
+    letter-spacing: 0px;
+    /* color: #0000 !important; */
+    line-height: 22px;
+}
+
+.cypto-modal .modal-content .css-4ljt47-MenuList,
+.bank-modal .css-4ljt47-MenuList {
+    background: #0b1d5e !important;
+    border: 1px solid !important;
+}
+
+.css-26l3qy-menu {
+    z-index: 3 !important;
+}
+
+.css-tj5bde-Svg {
+    color: #221d1d;
+}
+
+.action-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: all ease-in-out 0.3s;
+}
+.action-circle:hover{
+    background-color: #56d0f7;
+
+}
+.delete-modal .modal-header,
+.delete-modal .modal-footer {
+    border: none;
+}
+
+.delete-modal button {
+    background-color: #0b1d5e;
+    border: 1px solid #0b1d5e;
+    padding: 19px 30px;
+}
+
+.delete-btn {
+    background-color: transparent !important;
+    border: none !important;
+    color: #221d1d !important;
+}
+
+.action-btn {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0% !important;
+}
+
+@media (max-width: 1900px) {
+    .my-account {
+        width: 100%;
+    }
+
+    .settings .about-level,
+    .financial-report .footer,
+    .deleting-account .card,
+    .settings .profile-settings,
+    .my-account {
+        width: 100%;
+    }
+
+    .settings .profile-settings {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1800px) {
+
+    .address-book p,
+    .triage-model .modal-body .input-field {
+        width: 100%;
+    }
+
+    .settings .about-level,
+    .financial-report .footer,
+    .deleting-account .card,
+    .my-account {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .account-inputs {
+        width: 100%;
+    }
+}
+
+@media (max-width: 567px) {
+    .cover {
+        min-height: 180px !important;
+        width: 100% !important;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .level-img {
+        position: absolute;
+        /* top: 280px; */
+        top: 260px;
+    }
+
+    .camera-circle {
+        width: 40px;
+        height: 40px;
+    }
+
+    .camera-circle svg {
+        font-size: 15px;
+    }
+
+    .financial-report {
+        padding: 51px 13px;
+    }
+    .cover-uploader{
+        bottom: 122px;
+    }
+
+    .profile-photo {
+        width: 178px;
+        height: 178px;
+    }
+
+    .profile-uploader {
+        top: 247px;
+        left: 48%;
+    }
+
+    .financial-report span {
+        font: normal normal normal 15px/26px Assistant;
+        line-height: 19px;
+    }
+}
+
+@media (max-width: 360px) {
+    .tabs-section {
+        padding: 10px 0;
+    }
+    .triage-model .modal-content .modal-body h4{
+        font-size: 13px;
+    }
+ 
+}
+@media (max-width: 320px) {
+    .cover-uploader {
+        position: absolute;
+        right: -12px;
+        top: 19px;
+    } 
+    
+}
+@media (max-width: 300px) {
+.security  ul li span {
+    min-width: 150px;
+}}
+@media (max-width: 280px) {
+    .profile-photo {
+        position: absolute;
+        top: 148px;
+    }
+ 
+
+    .level-img {
+        position: absolute;
+        /* top: 280px; */
+        top: 296px;
+    }
+
+    .profile-uploader {
+        left: 60%;
+    }
+
+    /* .cover-uploader {
+        position: absolute;
+        right: -12px;
+        top: 19px;
+    } */
+}

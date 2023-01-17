@@ -1,0 +1,28 @@
+.page-not-found {
+    /* min-height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-exist {
+    margin-bottom: 70px;
+}
+
+.page-not-found h1 {
+    /* font: normal normal bold 94px/113px Formula Condensed; */
+    font-family: 'Formula Condensed';
+    font-weight: bold;
+    font-size: 94px !important;
+    line-height: 99px;
+    letter-spacing: 3.76px;
+    color: #FAFBFF;
+    text-transform: uppercase;
+}
+
+.page-not-found p {
+    font: normal normal 300 36px/36px Assistant !important;
+    letter-spacing: 0px;
+    color: #FAFBFF;
+    text-align: center;
+}

@@ -1,0 +1,209 @@
+.faqs {
+    min-height: 1080px;
+    padding-top: 200px;
+}
+
+.faqs h1 {
+    font-family: 'Formula Condensed';
+    font-weight: bold;
+    font-size: 94px;
+    line-height: 98px;
+    letter-spacing: 3.76px;
+    color: #FAFBFF;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.faqs h2 {
+
+    font-family: 'Formula Condensed';
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: 3.36px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.faqs p {
+    font: normal normal 300 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FAFBFF;
+    margin-bottom: 40px !important;
+}
+
+.faqs .category-tag {
+    background: #0F3179 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+    border: 1px solid #56D0F7;
+    width: 229px;
+    min-height: 80px;
+    transition: all ease-in-out 0.3s;
+}
+
+.category-tag:hover {
+    background-color: #56D0F7;
+}
+
+.faqs .headings {
+    margin-bottom: 40px;
+}
+
+.faqs a {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    padding: 19px 64px;
+    border: none;
+    text-decoration: none;
+}
+
+.accordion-button {
+    align-items: baseline !important;
+}
+
+.faqs .nav-pills .nav-link {
+    background: #0F3179 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+    border: 1px solid #56D0F7;
+    /* width: 229px; */
+    padding: 19px 56px !important;
+    min-height: 80px;
+    transition: all ease-in-out 0.3s;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal bold 24px/21px Assistant !important;
+    letter-spacing: 0px;
+    color: #FFFFFF !important;
+}
+
+.faqs .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #56D0F7;
+}
+
+.faqs a span {
+    font: normal normal 600 18px/36px Assistant;
+    letter-spacing: 0px;
+    color: #000000;
+    line-height: 22px;
+}
+
+.faqs .top-section {
+    margin-bottom: 200px;
+}
+
+/* .general-faqs {
+    min-height: 800px;
+} */
+
+.general-faqs .accordion-button,
+.general-faqs .accordion-body {
+    background: #0B2275 0% 0% no-repeat padding-box !important;
+    box-shadow: 0px 3px 6px #00000029 !important;
+    /* border-radius: 5px !important; */
+    box-shadow: none !important;
+}
+
+.general-faqs .accordion-button {
+    font: normal normal bold 26px/46px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+
+}
+
+.general-faqs .accordion-body p {
+    /* padding: 19px 64px !important; */
+    font: normal normal 300 22px/36px Assistant !important;
+    letter-spacing: 0px;
+    color: #FAFBFF !important;
+    width: 984px;
+    text-align: left;
+    padding-left: 26px;
+}
+
+.general-faqs .accordion-button::after {
+    background-image: none;
+    content: "\002B";
+    font-size: 40px;
+}
+
+.general-faqs .accordion-button:not(.collapsed) {
+    color: #fff !important;
+}
+
+.general-faqs .--bs-accordion-bg {
+    background-color: transparent !important;
+
+}
+
+.general-faqs .accordion-item {
+    border: none;
+    margin-bottom: 37px;
+}
+
+.general-faqs .accordion {
+    --bs-accordion-color: #000;
+    --bs-accordion-bg: transparent;
+}
+
+.general-faqs .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    transform: rotate(45deg);
+    font-size: 40px;
+}
+
+.general-faqs {
+    padding-top: 83px;
+    width: 1213px;
+    padding-bottom: 80px;
+}
+
+@media (max-width: 1800px) {
+
+    .faqs .category-tag,
+    .general-faqs .accordion-body p {
+        width: 100%;
+    }
+
+    .general-faqs {
+        width: 1100px;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    .general-faqs {
+        width: 100%;
+    }
+
+    .general-faqs .accordion-button {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .general-faqs .accordion-body p {
+        font-size: 15px !important;
+        line-height: 18px !important;
+    }
+    .general-faqs .accordion-button{
+        align-items: center !important;
+    }
+    .general-faqs .accordion-button::after{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .general-faqs .accordion-button {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .general-faqs .accordion-body p {
+        font-size: 12px !important;
+        line-height: 16px !important;
+    }
+  
+}

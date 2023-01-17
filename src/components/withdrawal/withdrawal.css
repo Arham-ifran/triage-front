@@ -1,0 +1,91 @@
+/* .withdrawal {
+    min-height: 900px;
+} */
+
+.withdrawals {
+    background: transparent linear-gradient(180deg, #113E7B 0%, #0B2275 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+    width: 1538px;
+    min-height: 317px;
+    padding: 121px 0;
+}
+
+.withdrawals h3 {
+    font: normal normal bold 24px/32px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.withdrawals p {
+    font: normal normal normal 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+.withdrawal .deposit-details .triage-select__control{min-height: 60px;}
+.input-div-amount input {
+    background: #6D80C4 0% 0% no-repeat padding-box !important;
+    /* border-radius: 27px; */
+    border-radius: 34px;
+    border-color: #6D80C4 !important;
+    padding: 10px 15px !important;
+    color: #fff;
+    min-height: 64px;
+}
+
+.input-div-amount .input-tag {
+    top: 14px;
+}
+.checkbox-text{
+    font: normal normal 600 18px/36px Assistant;
+    letter-spacing: 0px;
+    color: #fff;
+    line-height: 24px;
+}
+
+.input-div input {
+    background-color: #6d80c4;
+    color: #FFF;
+}
+
+.input-div input:focus-visible {
+    outline: none;
+}
+
+.withdrawal-eur .transfer-method {
+    min-height: auto;
+}
+
+@media (max-width: 1800px) {
+    .withdrawals {
+        width: 100%;
+    }
+}
+@media (max-width: 567px) {
+.input-div-amount input{
+    min-height: 58px;
+}}
+@media (max-width: 420px) {
+    .input-div-amount .input-tag {
+        top: 8px;
+        height: 22px;
+        width: 40px;
+    }
+    
+    .withdrawal-eur .transfer-method .input-div-amount input,.withdrawal .deposit-details .triage-select__control{
+        min-height: 40px;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    .withdrawals h3,
+    .withdrawals p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+   
+}

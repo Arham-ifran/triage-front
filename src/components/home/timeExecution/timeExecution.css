@@ -1,0 +1,60 @@
+.time-execution {
+    padding: 200px 0 100px;
+    background: #021761 0% 0% no-repeat padding-box;
+}
+
+.time-execution h2 {
+
+    font-family: 'Formula Condensed';
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: 3.36px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.time-execution .para {
+    margin-bottom: 70px;
+}
+
+.time-execution p {
+    font: normal normal 300 20px/26px Assistant;
+    color: #FFFFFF;
+    width: 673px;
+}
+
+.time-execution a{
+    padding: 19px 52px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+
+}
+
+.time-execution a span {
+    font: normal normal 600 18px/36px Assistant;
+    letter-spacing: 0px;
+    color: #000000;
+    line-height: 22px;
+}
+
+
+/*responsve*/
+@media (max-width: 1700px) {
+    .time-execution p {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    .time-execution {
+        padding: 0px 0 100px;
+    }
+}

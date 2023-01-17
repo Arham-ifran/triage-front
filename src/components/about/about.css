@@ -1,0 +1,226 @@
+.about-company {
+    min-height: 1080px;
+    padding-top: 200px;
+}
+
+.about-company h1 {
+
+    letter-spacing: 3.76px;
+    color: #FAFBFF;
+    text-transform: uppercase;
+    font-family: 'Formula Condensed';
+    font-weight: bold;
+    font-size: 94px;
+    line-height: 98px;
+}
+
+.about-company .box p {
+    font: normal normal normal 20px/30px Assistant;
+    letter-spacing: 0px;
+    color: #6D80C4;
+    margin-bottom: 10px;
+    width: 618px !important;
+}
+
+.about-company .box {
+    background: #0B2275 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+    width: 789px;
+    min-height: 180px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 40px 24px;
+}
+
+.about-company .box-div {
+    background: #0B2275 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+    width: 789px;
+    min-height: 250px;
+    padding: 41px 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-company .box-div strong {
+    font: normal normal bold 24px/17px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.about-company .box-div p {
+    font: normal normal normal 20px/30px Assistant;
+    letter-spacing: 0px;
+    color: #6D80C4;
+}
+
+.about-company .crypto-choices p {
+    margin-bottom: 90px;
+    font: normal normal 300 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FAFBFF;
+}
+
+.about-company .video-react-control-bar {
+    display: none;
+}
+
+.about-company .video-react-video {
+    width: 100%;
+    height: auto;
+}
+
+.about-company .video-react-button {
+    display: none;
+}
+
+.about-company h2 {
+    font-family: 'Formula Condensed';
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: 3.76px;
+    color: #FAFBFF;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.about-company a {
+    padding: 19px 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    border: none;
+    text-decoration: none;
+}
+
+.about-company a span {
+    font: normal normal 600 18px/36px Assistant;
+    letter-spacing: 0px;
+    color: #000000;
+    line-height: 22px;
+}
+
+.mb-230 {
+    margin-bottom: 230px;
+}
+
+.about-company .triage-advantage p {
+    margin-bottom: 70px;
+    font: normal normal 300 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FAFBFF;
+}
+
+.about-company .crypto-market:before {
+    width: 1541px;
+    height: 660px;
+}
+
+.about-company .why-become-triage p {
+    width: 950px;
+}
+
+.about-company .about-benefits {
+    background: #74c4dd 0% 0% no-repeat padding-box;
+    min-height: 763px;
+    margin-bottom: 230px;
+    padding: 86px 0;
+}
+
+.about-company .about-benefits h2 {
+    font: normal normal bold 48px/57px Formula;
+    font-family: 'Formula Condensed';
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: 3.36px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.about-company .about-benefits p {
+    font: normal normal 300 20px/26px Assistant;
+    letter-spacing: 1.2px;
+    color: #FAFBFF;
+    margin-bottom: 40px;
+    width: 599px;
+}
+
+.about-benefits ul {
+    margin-left: 30px;
+    margin-bottom: 98px;
+}
+
+.about-company .about-benefits li {
+    font: normal normal medium 18px/46px Assistant;
+    letter-spacing: 1.08px;
+    color: #FAFBFF;
+    position: relative;
+}
+
+.about-company .about-benefits li::before {
+    position: absolute;
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: #fff;
+    top: 6px;
+    left: -32px;
+}
+
+.about-benefits button {
+    padding: 12px 65px;
+}
+
+.about-benefits .benefits-details {
+    position: relative;
+}
+
+.about-benefits .benefits-details::before {
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: #FAFBFF;
+    content: '';
+    margin: 0 -40px;
+}
+
+.pl-40 {
+    padding-left: 40px;
+}
+
+@media (max-width: 1800px) {
+    .about-company .crypto-market:before {
+        width: 1234px !important;
+    }
+
+    .about-company .box,
+    .about-company .about-benefits p {
+        width: 100%;
+    }
+
+    .about-company .box,
+    .about-company .box-div,
+    .about-company .why-become-triage p {
+        width: 100%;
+    }
+
+    .about-company .box p {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 1399px) {
+    .about-company .box {
+        min-height: 278px;
+    }
+}

@@ -1,0 +1,156 @@
+.crypto-market {
+    padding: 100px 0;
+    background: #021761 0% 0% no-repeat padding-box;
+}
+
+.crypto-market:before {
+    /* width:500px;height:500px;
+    content:"";
+    position: absolute;
+    left:0;
+    top:0;
+    background: #fff;
+    opacity: 0.4;
+    -o-transform: skew(-45deg);
+    -ms-transform: skew(-45deg);
+    -moz-transform: skew(-45deg);
+    -webkit-transform: skew(-45deg);
+    transform: skew(-45deg); */
+
+
+
+    background: transparent linear-gradient(32deg, #00DFFC 0%, #0195F1 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.09;
+    /* width: 1650px;
+    height: 670px; */
+    width: 1720px;
+    height: 640px;
+    content: "";
+    position: absolute;
+    left: -791px;
+    top: -63px;
+    -webkit-transform: skew(-30deg) rotate(14deg);
+    /* transform: skew(-14deg) rotate(14deg);
+    -o-transform: skew(-14deg) rotate(14deg);
+    -ms-transform: skew(-14deg) rotate(14deg);
+    -moz-transform: skew(-14deg) rotate(14deg);
+    -webkit-transform: skew(-14deg) rotate(14deg); */
+}
+
+div.b {
+    width: 150px;
+    height: 150px;
+    transform: skew(20deg);
+    background: red;
+    /* width: 150px;
+    height: 100px;
+    background-color: yellow;
+    -ms-transform: skewY(20deg); 
+    transform: skewY(20deg); */
+}
+
+.crypto-market h2 {
+
+    font-family: 'Formula Condensed';
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: 3.36px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.crypto-market .para {
+    margin-bottom: 70px;
+}
+
+.crypto-market p {
+    font: normal normal 300 20px/26px Assistant;
+    color: #FFFFFF;
+    width: 673px;
+}
+
+.crypto-market a {
+    padding: 19px 52px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.crypto-market a span {
+    font: normal normal 600 18px/36px Assistant;
+    letter-spacing: 0px;
+    color: #000000;
+    line-height: 22px;
+}
+
+@media (max-width: 1700px) {
+    .crypto-market p {
+        width: 100%;
+    }
+
+    .crypto-market:before {
+        width: 1730px;
+        height: 499px;
+    }
+
+}
+
+@media (max-width: 1600px) {
+    .crypto-market:before {
+        width: 1630px;
+    }
+
+}
+
+@media (max-width: 1500px) {
+    .crypto-market:before {
+        width: 1530px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .crypto-market:before {
+        width: 1430px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .crypto-market:before {
+        width: 1330px;
+    }
+}
+@media (max-width: 1200px) {
+    .crypto-market:before {
+        width: 1350px;
+    }
+}
+@media (max-width: 1100px) {
+    .crypto-market:before {
+        width: 1230px;
+    }
+}
+@media (max-width: 1000px) {
+    .crypto-market:before {
+        width: 1430px;
+    }
+}
+
+@media (max-width: 991px) {
+    .crypto-market:before {
+        width:1474px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .crypto-market:before {
+        display: none;
+    }
+
+}

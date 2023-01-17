@@ -1,0 +1,149 @@
+.arbitrage {
+    min-height: 1080px;
+    padding-top: 200px;
+}
+
+.arbitrage h1 {
+    font-family: 'Formula Condensed';
+    font-weight: bold;
+    font-size: 94px;
+    line-height: 98px;
+    letter-spacing: 3.76px;
+    color: #FAFBFF;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.arbitrage p {
+    font: normal normal 300 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FAFBFF;
+    margin-bottom: 50px;
+}
+
+.arbitrage .what-is-arbitrage {
+    margin-bottom: 200px;
+}
+
+.arbitrage .what-is-crypto-arbitrage {
+    margin-bottom: 150px;
+}
+
+.arbitrage a span {
+    text-align: center;
+    font: normal normal 600 18px/36px Assistant;
+    letter-spacing: 0px;
+    color: #000000;
+    line-height: 22px;
+}
+
+.arbitrage .button-div {
+    padding-top: 40px;
+}
+
+.arbitrage a {
+    padding: 19px 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    border: none;
+    text-decoration: none;
+}
+
+.arbitrage h2 {
+    font-family: 'Formula Condensed';
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: 3.36px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.arbitrage .why-become-triage {
+    margin-bottom: 250px;
+}
+
+.arbitrage .why-become-triage p {
+    width: 950px;
+}
+
+.arbitrage strong {
+    font: normal normal bold 24px/17px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 15px;
+    line-height: 28px;
+}
+
+.arbitrage .mb-70 {
+    margin-bottom: 100px;
+}
+
+.arbitrage .box p {
+    font: normal normal normal 20px/30px Assistant;
+    letter-spacing: 0px;
+    color: #6D80C4;
+    margin-bottom: 10px;
+    width: 618px;
+}
+
+.arbitrage .box {
+    background: #0B2275 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+    width: 789px;
+    min-height: 180px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 40px 24px;
+}
+
+@media (max-width: 1800px) {
+    .arbitrage .box {
+        width: 100%;
+    }
+
+    .arbitrage .box p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1399px) {
+    .arbitrage .box {
+        min-height: 256px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1199px) {
+    .arbitrage .box {
+        width: 100%;
+    }
+
+    .arbitrage .why-become-triage p {
+        width: 100%;
+    }
+
+    .arbitrage .box {
+        min-height: 180px;
+    }
+}
+
+
+
+@media (max-width: 567px) {
+    .arbitrage h1 {
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    .arbitrage p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
+
+@media (max-width: 480px) {}

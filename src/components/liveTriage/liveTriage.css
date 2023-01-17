@@ -1,0 +1,214 @@
+.live-triage-details .card {
+    background: transparent linear-gradient(180deg, #113E7B 0%, #0B2275 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+    /* width: 1499px; */
+    min-height: 857px;
+    position: relative;
+}
+
+/* .live-triage {
+    min-width: calc(100% - 280px);
+} */
+/* 
+.live-triage-details .tabs-col {
+    padding-top: 30px;
+    padding: 30px 0 0 0;
+} */
+
+.live-triage-details .card .tabs {
+    border-bottom: 1px solid #021761;
+}
+
+/* .live-triage-details .percent-records {
+    width: 317px;
+} */
+
+.live-triage-details .card .left-side {
+    border-bottom: 1px solid #021761;
+    border-right: 1px solid #021761;
+}
+
+.live-triage-details .branding-tag {
+    background: #425B9561 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    width: 105px;
+    height: 36px;
+}
+
+.live-triage-details .table-content {
+    min-height: 700px;
+}
+
+.live-triage-details .fixed-side {
+    border-right: 1px solid #021761;
+    /* border-left: 11px solid #56D0F7; */
+}
+
+
+.livetrigae-table::-webkit-scrollbar {
+    width: 5px;
+}
+
+.livetrigae-table::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.livetrigae-table::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background: #6779ba;
+    border-radius: 8px;
+}
+
+.tag {
+    min-height: 70px;
+    border-left: 11px solid #56D0F7 !important;
+    background: #6D80C4 0% 0% no-repeat padding-box !important;
+    padding: 21px 2px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag2 {
+    background: #6D80C4C4 0% 0% no-repeat padding-box !important;
+    padding: 21px 2px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+    border-left: 11px solid #56D0F7 !important;
+}
+
+.fixed-side .tag span,
+.fixed-side .tag2 span {
+    font: normal normal medium 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.live-triage-details tbody tr:nth-child(odd) {
+    background: #6D80C4 0% 0% no-repeat padding-box !important;
+}
+
+.live-triage-details tbody tr:nth-child(even) {
+    background: #6D80C4C4 0% 0% no-repeat padding-box !important;
+}
+
+.live-triage-details table {
+    border-color: transparent !important;
+}
+
+.live-triage-details table tbody tr td {
+    padding: 15px 26px !important;
+
+}
+
+.live-triage-details table th {
+    padding: 40px !important;
+}
+
+.your-class {
+    background: #425B95 0% 0% no-repeat padding-box;
+    width: 153px;
+    height: 742px;
+    z-index: 1;
+    right: 110px;
+    position: absolute;
+    /* bottom: 272px; */
+    top: 450px;
+    transition: all ease-in-out 0.3s;
+}
+
+/* .toggle-btn {
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #0B2275!important;
+    border: 1px solid #113E7B;
+    background-color: transparent;
+} */
+.toggle-btn {
+    position: absolute;
+    z-index: 1;
+    right: 154px;
+    top: 410px;
+    /* position: fixed;
+    z-index: 1;
+    right: 154px;
+    top: 168px; */
+}
+
+.toggle-close .toggle-body {
+    display: none;
+}
+
+.heading {
+    padding: 44px 55px;
+    font: normal normal normal 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.your-class span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 55px;
+    border-bottom: 1px solid #021761;
+}
+
+.toggle-close {
+    z-index: 1;
+    right: 110px;
+    position: absolute;
+    top: 320px;
+}
+
+.live-triage-details table tr td:first-child {
+    border-left: 11px solid #56D0F7;
+    border-right: 1px solid #021761;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+.live-triage-details table th:first-child {
+    border-right: 1px solid #021761;
+}
+
+.brand-name {
+    font: normal normal medium 14px/18px Assistant;
+    letter-spacing: 0px;
+    color: #6D80C4;
+}
+
+.brand-tag {
+    background: #425B9561 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    width: 105px;
+    min-height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.live-triage-details table tr td span {
+    font: normal normal normal 14px/18px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.success-value {
+    font: normal normal normal 14px/18px Assistant;
+    letter-spacing: 0px;
+    color: #1FD3A4 !important;
+}
+
+@media (max-width: 1800px) {
+    .live-triage-details .card {
+        width: 100%;
+    }
+}

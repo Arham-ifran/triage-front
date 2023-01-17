@@ -1,0 +1,184 @@
+.earn {
+    background: #021761 0% 0% no-repeat padding-box;
+    padding: 181px 0 300px;
+}
+
+.earn .box {
+    background: #0B2275 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+.circle {
+    width: 62px;
+    height: 62px;
+    border-radius: 100%;
+    background-color: #021761;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    object-fit: fill;
+}
+
+.box strong {
+    font: normal normal 600 20px/26px Assistant;
+    color: #FFFFFF;
+}
+
+.box span {
+    font: normal normal normal 18px/23px Assistant;
+    color: #AFAFAF;
+}
+
+.box .value {
+    font: normal normal normal 18px/23px Assistant;
+    letter-spacing: 0px;
+    color: #1FD3A4;
+}
+
+.box .value-red {
+    font: normal normal normal 18px/23px Assistant;
+    letter-spacing: 0px;
+    color: #FF3F03;
+}
+
+.box a {
+    font: normal normal 600 18px/23px Assistant;
+    letter-spacing: 0px;
+    color: #060000;
+    padding: 15px 30px;
+    margin-left: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    border: 1px solid #fff;
+}
+
+.earn .price {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 371px;
+    margin-bottom: 25px;
+    font-size: 48px;
+    font-family: 'Formula Condensed';
+    font-weight: bold;
+    letter-spacing: 3.36px;
+}
+
+.earn .percent {
+    /* font: normal normal bold 94px/57px Formula; */
+    font-size: 94px;
+    font-family: 'Formula Condensed';
+    font-weight: bold;
+    width: 183px;
+    letter-spacing: 6.58px;
+}
+
+.earn p {
+    font: normal normal 300 20px/26px Assistant;
+    letter-spacing: 1.2px;
+    color: #FAFBFF;
+}
+
+.earn ul li {
+    font: normal normal medium 18px/46px Assistant;
+    letter-spacing: 1.08px;
+    color: #FAFBFF;
+    padding-bottom: 14px;
+    position: relative;
+}
+
+.earn ul li::before {
+    position: absolute;
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: #56D0F7;
+    top: 6px;
+    left: -32px;
+}
+
+.earn .separator {
+    border: 1px solid #5875DE;
+    /* border: 1px solid white; */
+    width: 1px;
+    height: 469px;
+}
+
+.earn ul {
+    /* margin-bottom: 78px; */
+    list-style: none;
+    margin-bottom: 28px;
+}
+
+/* .earn button {
+    padding: 19px 52px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.earn a {
+    padding: 19px 52px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+}
+
+.earn a span {
+    font: normal normal 600 18px/36px Assistant;
+    letter-spacing: 0px;
+    color: #000000;
+    line-height: 22px;
+}
+
+/*responsive*/
+
+@media (max-width: 1399px) {
+    .earn {
+        padding: 120px 0 200px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .separator {
+        transform: rotate(90deg);
+    }
+    .earn .separator {
+        height: 250px;
+    }
+    .earn {
+        padding: 120px 0 90px;
+    }
+}
+
+@media (max-width: 479px){
+    .box .box-in {
+        /* justify-content: center !important; */
+        margin-bottom: 26px;
+    }
+    .circle{
+        margin-bottom: 12px;
+    }
+    .box .box-margin-bottom{
+        margin: 0 0 30px;
+    }
+    .earn {
+        padding: 60px 0 90px;
+    }
+}

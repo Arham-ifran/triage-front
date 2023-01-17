@@ -1,0 +1,14 @@
+.footer-card{
+    background: aliceblue;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #d7c2c2;
+}
+.transaction-modal .footer-card strong{
+    color: #716b6b !important;
+    margin-bottom: 0%;
+}
+/* .transaction-modal.triage-model .modal-content {
+    background: linear-gradient(0deg, #ffffff 60%, #021761 60%) !important;
+    border: none;
+} */

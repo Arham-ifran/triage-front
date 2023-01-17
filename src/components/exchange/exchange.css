@@ -1,0 +1,180 @@
+.exchange {
+    padding-bottom: 50px;
+}
+
+.exchange-details input {
+    background-color: #6d80c4;
+    color: #ffff;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.input-div {
+    position: relative;
+}
+
+/* .exchange-details button {
+    padding: 12px 20px !important;
+} */
+.exchange-details button span {
+    padding: 0%;
+    line-height: 22px;
+    /* line-height: 18px; */
+}
+
+
+.exchange-details .settings,
+.exchange-details .dropdown button,
+.exchange-details .dropdown button:active {
+    /* width: 54px;
+    height: 54px; */
+    background: #FFD660 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.3s;
+    border: none;
+}
+
+.exchange .wallet-card:hover,
+.exchange .wallet-card {
+    border: none;
+}
+
+.balance-span {
+    position: absolute;
+    /* top: 12px; */
+    top: 19px;
+    right: 64px;
+    /* max-width: 50px; */
+    overflow: hidden;
+}
+
+.input-tag {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    width: 89px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    cursor: pointer;
+}
+
+.trans-btn span {
+    color: #6D80C4 !important;
+    line-height: 16px !important;
+}
+
+.buttons-sec {
+    margin-bottom: 27px;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.input-tag span {
+    font: normal normal bold 14px/36px Assistant;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.current-rate {
+    margin-bottom: 50px;
+}
+
+.transfer-method {
+    margin-bottom: 70px !important;
+}
+
+.transfer-info .wallet-card {
+    box-shadow: none !important;
+    width: 100% !important;
+
+}
+
+.exchange-details .card {
+    font: normal normal normal 18px/23px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    line-height: 22px;
+
+}
+
+.exchange-details .wallet-card {
+    padding-bottom: 40px;
+}
+
+.exchange-details .transfer-pay {
+    background: #425B95 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+    /* width: 471px; */
+    min-height: 150px;
+    border-radius: 12px;
+    padding: 20px 24px;
+    /* width: fit-content; */
+    word-break: break-all;
+}
+
+.exchange-details .transfer-pay span {
+    font: normal normal normal 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.exchange-details .transfer-pay strong {
+    font: normal normal bold 40px/52px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.exchange-details .transfer-pay .sub-heading {
+    font: normal normal 300 14px/18px Assistant;
+    letter-spacing: 0px;
+    color: #FAFBFF;
+    min-width: 36px;
+}
+
+.about-savings {
+    padding: 0px !important;
+    border-bottom: 1px solid #021761;
+    border-width: 90%;
+    margin: 1px 27px 0px;
+    ;
+    /* margin: 21px; */
+}
+
+
+@media (max-width: 1399px) {
+    .input-tag {
+        /* top: 10px; */
+        top: 6px;
+        height: 32px;
+    }
+
+    .balance-span {
+        top: 15px;
+        font-size: 11px !important;
+    }
+}
+
+/* @media (max-width: 1366px) {
+.transfer-method .row .col{width:100%;}} */
+
+@media (max-width: 360px) {
+    /* .input-tag {
+        top: 4px;
+    } */
+    .input-tag {
+        top: 10px;
+        width: 50px;
+        height: 20px;
+    }
+    .balance-span {
+        top: 12px;
+        font-size: 7px !important;
+    }
+}

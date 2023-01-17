@@ -1,0 +1,593 @@
+.deposit-page {
+    /* border-top: 3px solid #FFD046; */
+    padding-bottom: 50px;
+}
+
+/* .sidebar {
+    background: #000D3C 0% 0% no-repeat padding-box;
+    min-width: 280px;
+    padding: 51px 0 0 20px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 6;
+}
+
+.sidebar ul {
+    overflow-y: scroll;
+    height: calc(100% - 122px);
+    overflow-x: hidden;
+    padding: 0 0 90px;
+}
+
+
+.sidebar ul::-webkit-scrollbar {
+    width: 5px;
+}
+
+.sidebar ul::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.sidebar ul::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.6);
+    background: #6779ba;
+    border-radius: 8px;
+}
+
+
+
+
+.sidebar .logo {
+    margin-bottom: 74px;
+} */
+.deposit-page .deposit-notice {
+    padding: 10px;
+    border: 1px solid #56cff7;
+    border-radius: 4px;
+    background: #56cff7;
+    margin: 0 0 15px;
+}
+
+.deposit-page .deposit-notice p {
+    margin: 0 0 5px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+}
+
+.deposit-page .deposit-notice p:last-child {
+    margin: 0;
+}
+
+.deposit-page .deposit-notice .btn-read-more {
+    padding: 10px 25px;
+}
+
+.deposit-details .transfer-info {
+    transition: all ease-in-out 0.5s !important;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+.transfer-info p {
+    max-height: 126px;
+}
+
+.deposit-details .css-14el2xx-placeholder {
+    min-width: 200px;
+}
+
+/* .increase  {
+    min-height: 700px !important;
+    border-radius: 15px;
+    transition: all ease-in-out 0.3s;
+} */
+.increase {
+    transition: all ease-in-out 0.3s;
+}
+
+.increase .transfer-info {
+    min-height: 771px !important;
+    /* height: auto; */
+    scroll-behavior: smooth;
+    transform: scaleY(1);
+    transition: all ease-in-out 0.3s;
+}
+
+.transfer-info {
+    transition: all ease-in-out 0.8s;
+}
+
+
+.code-inputs {
+    width: 584px;
+    margin-bottom: 30px;
+}
+
+.code-input {
+    /* width: 746px; */
+    margin-bottom: 30px;
+}
+
+.code-inputs input:focus-visible {
+    border: 1px solid #fff !important;
+    outline: none !important;
+}
+
+.code-input input:focus-visible {
+    border: 1px solid #6d80c4 !important;
+    outline: none !important;
+}
+
+.code-inputs input {
+    border: 1px solid #fff;
+    width: 100%;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.code-input input {
+    border: 1px solid #e1e0e0;
+    width: 100%;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: black;
+    border-radius: 4px;
+}
+
+.security-modal .modal-content {
+    background-color: #56D0F7 !important;
+}
+
+.security-modal label {
+    color: #fff;
+}
+
+.security-modal .modal-title {
+    font: normal normal bold 29px/17px Assistant;
+    padding: 10px 0 0 0;
+    letter-spacing: 0px;
+    color: #FFFFFF !important;
+}
+
+.security-modal .modal-body button {
+    background-color: #fff;
+    padding: 10px 30px;
+    border: none;
+}
+
+.security-modal .modal-content button span {
+    font: normal normal medium 18px/36px Assistant;
+    letter-spacing: 0px;
+    color: #000000;
+    line-height: 22px;
+}
+
+.security-modal p,
+.security-modal span {
+    font: normal normal normal 20px/17px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+
+.account-inputs input::placeholder {
+    font: normal normal normal 18px/32px Assistant;
+    letter-spacing: 0px;
+    color: #ffffff9a;
+    line-height: 22px;
+}
+
+/* .sidebar ul li {
+    cursor: pointer;
+    margin: 0 0 10px 0;
+    transition: all ease-in-out 0.3s;
+}
+
+.sidebar ul li a {
+    display: inline-flex;
+    padding: 22px 10px !important;
+}
+
+.transition {
+    transition: all ease-in-out 0.3s;
+}
+
+.sidebar ul li a:hover,
+.active {
+    background: #56D0F7 0% 0% no-repeat padding-box;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+} */
+
+.paypal-btn {
+    background-color: rgb(247 189 56) !important;
+    padding: 19px 70px !important;
+}
+
+.paypal-btn .pay-span {
+    color: rgb(0 46 131) !important;
+    font-weight: bold !important;
+}
+
+.paypal-btn .pal-span {
+    color: rgb(1 151 215) !important;
+    font-weight: bold !important;
+}
+
+/* .sidebar ul li span {
+    font: normal normal normal 18px/23px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+} */
+
+.deposit-page {
+    min-width: calc(100% - 280px);
+}
+
+.deposit-details {
+    /* background: #021761 0% 0% no-repeat padding-box;
+    padding: 21px 50px 0;
+    min-width: calc(100% - 280px); */
+}
+
+.deposit-details .transfer-method {
+    background: transparent linear-gradient(180deg, #113E7B 0%, #0B2275 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+    /* width: 1021px; */
+    min-height: 768px;
+    padding: 33px 30px;
+    border-radius: 15px;
+}
+
+.transfer-info {
+    position: relative;
+}
+
+.deposit-details .transfer-info {
+    background: transparent linear-gradient(180deg, #113E7B 0%, #0B2275 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+    /* width: 500px; */
+    min-height: 390px;
+    padding: 33px 30px;
+    border-radius: 15px;
+}
+
+.deposit-details h2 {
+    font-family: 'Formula Condensed';
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    word-break: break-word;
+}
+
+.deposit-details span {
+    font: normal normal 600 18px/22px Assistant;
+    letter-spacing: 0px;
+    color: #fff;
+}
+
+.deposit-details p {
+    font: normal normal 300 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #fff;
+    word-break: break-word;
+}
+
+.deposit-details strong {
+    font: normal normal bold 24px/32px Assistant;
+    letter-spacing: 0px;
+    color: #fff;
+    display: block;
+}
+
+.deposit-details .circle {
+    width: 54px !important;
+    height: 54px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 100%;
+    margin-right: 26px;
+}
+
+.deposit-details .circle img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+/* .css-4ljt47-MenuList img,
+.css-319lph-ValueContainer img {
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    object-fit: fill;
+    border-radius: 100%;
+}  */
+
+
+.increase .arrow-down {
+    display: none;
+}
+
+.arrow-up {
+    display: none;
+}
+
+.increase .arrow-up {
+    display: block;
+}
+
+.deposit-details .form-select {
+    background: #6D80C4 0% 0% no-repeat padding-box !important;
+    border-radius: 27px;
+    border-color: #6D80C4;
+    padding: 13px 30px;
+    color: #fff;
+}
+
+.deposit-details .selection-field {
+    margin-bottom: 28px;
+}
+
+.deposit-details .triage-select__control,
+.deposit-details .css-1s2u09g-control {
+    background: #6D80C4 0% 0% no-repeat padding-box !important;
+    border-radius: 27px;
+    border-color: #6D80C4 !important;
+    padding: 0px 15px !important;
+    color: #fff;
+}
+
+.deposit-details .transfer-pay {
+    background: #425B95 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+    /* width: 471px; */
+    min-height: 172px;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 100px;
+    width: fit-content;
+    word-break: break-all;
+}
+
+span.sub-heading {
+    min-width: 32px;
+}
+
+.deposit-details .transfer-pay strong {
+    font: normal normal bold 40px/52px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.current-amount {
+    padding: 12px;
+    border-bottom: 1px solid #fff6;
+}
+
+.deposit-details #react-select-2-listbox {
+    background-color: #2684ff !important;
+    color: #fff !important;
+}
+
+.deposit-details .css-26l3qy-menu {
+    background-color: #2684ff !important;
+    color: #fff !important;
+}
+
+/* .deposit-detailss .css-26l3qy-menu:hover,.deposit-detailss .css-1pahdxg-control  {
+    background-color: #0b2275 !important;
+    color: #fff !important;
+    border-color: #0b2275 !important;
+} */
+.deposit-detailss .css-26l3qy-menu:hover {
+    background-color: #2684ff !important;
+    color: #fff !important;
+}
+
+/* Active */
+.css-9gakcf-option {
+    background-color: #2684ff !important;
+}
+
+/* hover */
+.css-yt9ioa-option:active,
+.css-1n7v3ny-option {
+    background-color: #2684ff !important;
+    color: #fff !important;
+}
+
+.dropdown-menu.show {
+    display: block;
+    /* transform: translate3d(-12px, 63.8182px, 0px) !important; */
+    transform: translate3d(-12px, 42.8182px, 0px) !important;
+}
+
+.cwallet-dropdown button {
+    /* padding: 40px 75px; */
+    padding: 19px 75px;
+    margin-right: 14px;
+}
+
+.deposit-details .css-1pahdxg-control {
+    background-color: transparent !important;
+    color: #fff !important;
+    border-radius: 27px;
+    border-color: #6D80C4 !important;
+    padding: 0px 15px !important;
+}
+
+.deposit-detailss .css-1pahdxg-control {
+    background-color: #113E7B !important;
+    color: #fff !important;
+    border-radius: 27px;
+    border-color: #113E7B !important;
+    padding: 0px 15px !important;
+    box-shadow: none !important;
+}
+
+.transfer-pay.transfer-pay-paypal {
+    min-height: 170px;
+    margin-bottom: 40px;
+}
+
+.deposit-details .css-1okebmr-indicatorSeparator {
+    background-color: #fff !important;
+}
+
+.deposit-details .css-qc6sy-singleValue,
+.deposit-details .css-tj5bde-Svg,
+.deposit-details .css-14el2xx-placeholder {
+    color: #fff !important;
+}
+
+.transfer-method .apply-btn {
+    padding: 15px 10px !important;
+}
+
+.deposit-details .copy-icon {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.deposit-details .guide-alert {
+    font: normal normal normal 14px/18px Assistant;
+    letter-spacing: 0px;
+    color: #6D80C4;
+    word-break: break-word;
+}
+
+.deposit-details button {
+    border: none;
+}
+
+.deposit-details .bottom-icon {
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+}
+
+@media (max-width: 1800px) {
+    .code-inputs {
+        width: 100%;
+    }
+
+ 
+
+    /* .deposit-details span,
+    .wallet-card span,
+    .top-up-account p {
+        font: normal normal 600 12px/22px Assistant;
+    } */
+
+    .wallet-card .value-field span {
+        font: normal normal normal 11px/18px Assistant;
+    }
+}
+
+@media (max-width: 1399px) {
+    .transfer-method input {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 10px 10px 8px;
+    }
+
+    .deposit-details .css-1s2u09g-control,
+    .deposit-details .css-1pahdxg-control {
+        padding: 6px 15px !important;
+    }
+
+    .deposit-details.exchange-details .css-1s2u09g-control,
+    .deposit-details.exchange-details .css-1pahdxg-control {
+        padding: 0px 15px !important;
+    }
+
+    .deposit-details .copy-icon {
+        top: 5px;
+    }
+
+    .transfer-method .apply-btn {
+        padding: 11px !important;
+        margin-right: -2px;
+    }
+
+
+}
+
+@media (max-width: 991px) {
+    .code-input {
+        width: 100%;
+    }
+    .wallet-card .card-footer span,
+    .wallet-card .card-footer p {
+        font: normal normal 600 12px/22px Assistant;
+    }
+}
+
+@media (max-width: 480px) {
+    .transfer-method input {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .copy-icon img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .deposit-details .transfer-pay strong {
+        font: normal normal bold 19px/23px Assistant;
+    }
+}
+
+
+
+@media (max-width: 360px) {
+    .transfer-method input {
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .deposit-details .copy-icon {
+        top: 6px;
+    }
+
+    .wallet-card .card-footer {
+        padding: 3px 10px 4px;
+    }
+
+    span.alert.alert-warning.d-inline-block.align-top.kyc-warning.text-black h4 {
+        font-size: 13px;
+        margin: 0%;
+    }
+
+    .paypal-btn {
+        padding: 12px 40px !important;
+    }
+
+    .deposit-details .triage-select__control,
+    .deposit-details .css-1s2u09g-control {
+        padding: 0 !important;
+    }
+}
+
+@media (max-width: 280px) {
+    .alert.kyc-warning {
+        padding: 5px;
+    }
+}

@@ -1,0 +1,292 @@
+.detais-cards {
+    background: transparent linear-gradient(180deg, #113E7B 0%, #0B2275 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+    border: 1px solid #56D0F7;
+    transition: all ease-in-out 0.3s;
+    width: 370px;
+    min-height: 117px;
+    border-radius: 14px;
+    padding: 28px 18px;
+}
+
+.detais-cards strong {
+    font: normal normal bold 24px/21px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+/* .detais-cards:hover {
+    background: #56D0F7 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+}
+
+.detais-cards:hover .count {
+    background: #0DA2D1 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+} */
+
+.detais-cards .active {
+    background: #56D0F7 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+}
+
+.active {
+    background: #56D0F7 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+}
+
+.details .active .count {
+    background: #0DA2D1 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+}
+
+.detais-cards .count {
+    width: 61px;
+    height: 61px;
+    border: 1px solid #0DA2D1;
+    border-radius: 8px;
+    margin-right: 18px;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details {
+    margin-bottom: 65px;
+}
+
+.detais-cards h2,
+.lock-period h2,
+.profit-planning h2 {
+    font: normal normal bold 34px/45px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.profit-planning {
+    background: transparent linear-gradient(180deg, #113E7B 0%, #0B2275 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+    /* width: 1021px; */
+    min-height: 768px;
+    padding: 33px 30px;
+    border-radius: 15px;
+}
+
+.profit-planning p {
+    font: normal normal 600 18px/36px Assistant;
+    letter-spacing: 0px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.profit-planning .pin-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #425B95 0% 0% no-repeat padding-box;
+    margin: 0 4px;
+    transition: all ease-in-out 0.3s !important;
+}
+/* .profit-planning .amount-input{width:590px;} */
+.review-modal {
+    font: normal normal 500 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #0000;
+}
+.review-modal ul{
+    /* padding-top: 70px; */
+    padding-top: 20px;
+}
+.review-modal a,.review-modal span {
+    color: #000;
+}
+/* 
+.review-modal .modal-content {
+    background-color: #0DA2D1 !important;
+} */
+
+.review-modal .modal-header,
+.review-modal .modal-body,
+.review-modal .modal-footer {
+    /* border-color: #6090bb !important; */
+}
+
+.review-modal .modal-header .btn-close {
+    /* background-color: transparent; */
+}
+
+.review-modal .form-group label:before,.review-modal .form-group label:after {
+    border-color: black !important;
+}
+
+.warning-circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #0DA2D1;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profit-planning .pin-circle img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.profit-plan {
+    padding: 70px 0;
+}
+
+.exclamation-icon {
+    font-size: 10px;
+}
+
+.detais-cards .search-field {
+    width: 383px;
+}
+
+.detais-cards .searching {
+    margin-bottom: 58px;
+}
+
+.next-btn {
+    background: transparent !important;
+    border: 1px solid #6D80C4 !important;
+
+}
+
+.saving-plan strong {
+    font: normal normal 600 18px/36px Assistant;
+    letter-spacing: 0px;
+    color: #fff;
+}
+
+.saving-plan .wallet-card {
+    min-height: 180px;
+}
+
+.interst-cards {
+    margin-bottom: 50px;
+}
+
+.wallet-card {
+    /* border: 1px solid transparent; */
+}
+
+.profit-plan .wallet-details .wallet-card {
+    min-height: 294px;
+}
+
+/* .earn button{
+    padding: 15px 31px;
+} */
+.earn a {
+    padding: 15px 31px;
+}
+
+.wallet-card-div {
+    border: 1px solid transparent;
+}
+
+
+
+
+/* 
+.show_class .bottom-icon img {
+    transform: rotate(180deg);
+}
+.show_class .bottom-icon {
+    bottom: -14px !important;
+    z-index: 2 !important;
+} */
+
+.wallet-card-div:hover,
+.active-card {
+    border: 1px solid #56D0F7;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.next-btn span {
+    color: #6D80C4 !important;
+}
+
+.not-available {
+    /* min-height: 100vh; */
+    padding: 100px 0;
+}
+
+.profit-plan .wallet-card {
+    min-height: 320px;
+}
+
+.earn-interest-details .wallet-card {
+    min-height: 160px !important;
+}
+
+.top-up-account {
+    transition: all ease-in-out 0.3s;
+    transform-origin: top bottom;
+    /* transform: scaleY(0); */
+    height: 100%;
+}
+
+
+.show_class .top-up-account {
+    transform: scaleY(1);
+    height: 100%;
+}
+
+@media (max-width: 1900px) {
+    .detais-cards {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    /* .profit-planning .amount-input{width:100%;} */
+}
+@media (max-width: 1880px) {
+   
+}
+@media (max-width: 1399px) {
+.profit-plan .wallet-card {
+    min-height: 414px;
+}
+
+.detais-cards strong {
+    font: normal normal bold 18px/21px Assistant;}
+}
+
+@media (max-width: 1199px) {
+    /* .profit-plan .wallet-card {
+        margin-bottom: 15px;
+    } */
+ 
+}
+
+@media (max-width: 567px) {
+    .count, .detais-cards strong{
+        margin-bottom: 10px;
+    }
+
+    .review-modal a,
+    .form-group label {
+        font-size: 14px;
+    }
+
+}
+@media (max-width: 567px) {
+    button{
+        padding: 4px 19px !important;
+    }
+    button span{
+        font-size: 13px !important;
+    }
+}

@@ -1,0 +1,37 @@
+ .toast-body,
+ .toast-header {
+     /* background-color: #ff5c5c !important; */
+     /* background-color: #3a9c3a !important; */
+     border: none !important;
+ }
+
+ .toast-body {
+     border-radius: 4px;
+     min-height: 60px;
+ }
+
+ .toast-body,
+ .toast-header h3 {
+     color: #ffff;
+ }
+
+ .toast-modal button {
+     background-color: transparent;
+     border: none;
+ }
+
+ .toast-modal button:focus {
+     box-shadow: none;
+ }
+
+ .toast-modal {
+     z-index: 5;
+     position: fixed;
+     bottom: 0%;
+     /* position: absolute;
+    bottom: 483px; */
+ }
+
+ /* .success-mg .toast-header,.success-mg .toast-body {
+    background-color: #3a9c3a !important;
+} */

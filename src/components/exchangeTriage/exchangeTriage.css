@@ -1,0 +1,177 @@
+.exchange-triage {
+    min-height: 1080px;
+    padding-top: 200px;
+}
+
+.exchange-triage h1 {
+    font-family: 'Formula Condensed';
+    font-weight: bold;
+    font-size: 94px;
+    line-height: 98px;
+    letter-spacing: 3.76px;
+    color: #FAFBFF;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.exchange-triage h2 {
+    font-family: 'Formula Condensed';
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: 3.36px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.exchange-triage a span {
+    text-align: center;
+    font: normal normal 600 18px/36px Assistant;
+    letter-spacing: 0px;
+    color: #000000;
+    line-height: 22px;
+}
+
+.exchange-triage a {
+    padding: 19px 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    border: none;
+    text-decoration: none;
+}
+
+.speed-simplicity p {
+    /* font: normal normal 300 26px/36px Assistant; */
+    font: normal normal 300 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FAFBFF;
+    margin-bottom: 56px;
+}
+
+.trade-with-peace p {
+    font: normal normal 300 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FAFBFF;
+    margin-bottom: 70px;
+}
+
+.exchange-advantages p {
+    font: normal normal 300 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FAFBFF;
+    margin-bottom: 40px;
+    width: 599px;
+}
+
+.expectional-rates p {
+    font: normal normal 300 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FAFBFF;
+    width: 950px;
+    margin-bottom: 57px;
+}
+
+.exchange-triage .history {
+    width: 1670px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    box-shadow: none;
+    margin-bottom: 100px;
+
+}
+
+.exchange-triage .history .table thead th {
+    min-width: 164px;
+    text-align: center;
+    /* padding: 12px 65px; */
+}
+
+.exchange-triage .history .table tbody tr td {
+    /* padding: 12px 65px; */
+    font: normal normal normal 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    min-width: 164px;
+    text-align: center;
+
+}
+
+.change {
+    color: #F20A0A;
+    font: normal normal 600 20px/26px Assistant;
+    letter-spacing: 0px;
+}
+
+.exchange-triage .history .table tbody tr td .table-content {
+    min-height: 86px;
+}
+
+.exchange-triage .history .table strong {
+    font: normal normal 500 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    width: calc(100% - 70px);
+}
+
+.speed-simplicity,
+.trade-with-peace,
+.exchange-advantages,
+.expectional-rates {
+    margin-bottom: 240px;
+}
+
+@media (max-width: 1800px) {
+
+    /* .exchange-advantages p,
+    .expectional-rates p {
+        width: 100%;
+    } */
+
+    .exchange-triage .history {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1399px) {
+    .exchange-triage h1 {
+        font-size: 68px;
+        line-height: 72px;
+    }
+
+    .exchange-advantages p {
+        font: normal normal 300 16px/22px Assistant;
+    }
+}
+
+@media (max-width: 1199px) {
+
+    .exchange-advantages p,
+    .expectional-rates p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 567px) {
+    .exchange-triage p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+
+    .exchange-triage .history .table strong,
+    .exchange-triage .history .table tbody tr td {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .speed-simplicity,
+    .trade-with-peace,
+    .exchange-advantages,
+    .expectional-rates {
+        margin-bottom: 50px;
+    }
+
+}

@@ -1,0 +1,672 @@
+.account-level-details .card-profile {
+    background: transparent linear-gradient(180deg, #113E7B 0%, #0B2275 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+    /* min-height: 737px; */
+    /* width: 1499px; */
+    margin-bottom: 60px;
+    border-radius: 8px;
+    padding-bottom: 62px;
+}
+
+.account-level {
+    min-width: calc(100% - 280px);
+}
+
+.account-level-details .card-profile .head-top {
+    background: #6D80C4 0% 0% no-repeat padding-box;
+    min-height: 164px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    /* padding: 47px 213px; */
+    position: relative;
+}
+
+.account-level-details .card-profile .head-top strong {
+    font: normal normal bold 24px/32px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    text-transform: capitalize;
+}
+
+.account-level-details .card-profile .head-top button.btn-triage-div.btn-triage {
+    top: 20%;
+    /* left: 50%; */
+    right: 5%;
+    position: absolute;
+}
+
+.account-level-details .card-level {
+    background: #0B2275 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+    /* width: 1499px; */
+    /* min-height: 796px; */
+    padding: 32px 43px;
+    border-radius: 8px;
+    margin-bottom: 58px;
+}
+
+.triage-select__indicator svg,
+.triage-select__indicator:hover svg {
+    color: #fff;
+}
+
+/* .triage-select__menu-list.css-4ljt47-MenuList {
+    background-color: #6D80C4;
+}  */
+.triage-select__menu-list,
+.country-code-select__menu-list,
+.country-code-select.triage-select.w-100__menu-list {
+    /* /* background: #2684ff; */
+    background-color: #6D80C4;
+}
+
+.liveTriage__menu-list,
+.liveTriage.triage-select.w-100__menu-list {
+    /* /* background: #2684ff; */
+    background-color: #6D80C4;
+}
+
+.liveTriage__control {
+    background: #0B2275 0% 0% no-repeat padding-box !important;
+    border-radius: 4px !important;
+    border-color: #0B2275 !important;
+}
+
+.liveTriage__single-value,
+.liveTriage__option,
+.triage-select__placeholder {
+    color: #FFFFFF !important;
+}
+
+.liveTriage__option.liveTriage__option--is-focused {
+    background-color: #2684ff !important;
+}
+
+/* .country-code-select__option.country-code-select__option--is-focused,
+.country-code-select__option,
+.country-code-select.triage-select.w-100__option {
+    color: #fff !important;
+} */
+
+.deposit-detail-select .css-1s2u09g-control {
+    background: #021761 0% 0% no-repeat padding-box !important;
+    /* border-radius: 27px; */
+    /* border-color: #6D80C4 !important; */
+    padding: 10px 15px !important;
+    color: #fff;
+}
+
+.deposit-detailss .css-1s2u09g-control {
+    background: #0b2275 0% 0% no-repeat padding-box !important;
+    border: 2px solid #0b2275 !important;
+}
+
+.account-level-details .card-level .level-tabs {
+    background: #6D80C4 0% 0% no-repeat padding-box;
+    padding: 9px 12px;
+    border-radius: 8px;
+    min-height: 83px;
+    /* display: flex; */
+}
+
+.title-circle {
+    height: 255px;
+    width: 255px;
+    background: #113E7B 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.progress-level {
+    /* padding: 257px 216px 67px; */
+    padding: 180px 216px 57px;
+}
+
+.progress {
+    background-color: #6D80C4 !important;
+}
+
+.progress-level strong {
+    font: normal normal bold 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.progress-level span {
+    font: normal normal normal 14px/18px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.x-icon {
+    color: white;
+    font-size: 30px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+/* .level-tabs .dropdown-menu.show, */
+/* .header-top .dropdown-menu.show {
+    transform: translate(-50px, 50px) !important;
+    padding: 10px;
+} */
+
+.compare-level .header-top p {
+    font: normal normal normal 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+
+
+
+.account-level-details ::-webkit-scrollbar {
+    width: 5px;
+}
+
+.account-level-details ::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.account-level-details ::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background: #6779ba;
+    border-radius: 8px;
+}
+
+
+
+
+.account-level-details .table thead th {
+    min-width: 164px;
+    padding: 12px 46px;
+}
+
+.account-level-details .table tbody tr td {
+    padding: 12px 65px;
+    font: normal normal normal 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+
+}
+
+.account-level-details .table thead tr {
+    border: none !important;
+}
+
+.account-level-details table tbody tr:last-child,
+.account-level-details table tbody tr:first-child {
+    border: none;
+}
+
+.level-tabs p {
+    font: normal normal normal 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.level-tabs button,
+.header-top button,
+.level-tabs .dropdown button,
+.header-top .dropdown button {
+    background: #0B2275 0% 0% no-repeat padding-box !important;
+    /* min-width: 145px; */
+    padding: 19px 50px !important;
+    min-height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.level-tabs .dropdown,
+.header-top .dropdown {
+    margin: 0 15px;
+}
+
+.level-tabs button span,
+.header-top button span {
+    font: normal normal bold 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    line-height: 22px;
+
+}
+
+.pt-95 {
+    padding-top: 95px;
+}
+
+.card-level .enter-amount-input input {
+    padding: 20px 60px 20px 20px;
+}
+
+.account-level-details .table thead th {
+    /* min-width: 305px; */
+    font: normal normal bold 18px/23px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.account-level-details .table tbody tr td {
+    min-width: 110px;
+    font: normal normal normal 18px/52px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding: 12px 46px;
+}
+
+.account-level-details .table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: transparent;
+}
+
+.account-level-details .table-bordered>:not(caption)>*>* {
+    border-width: 0;
+}
+
+.account-level-details .table-bordered>:not(caption)>* {
+    border-color: #6D80C45E;
+}
+
+.account-level-details .table tbody tr td .table-content {
+    min-height: 86px;
+}
+
+.account-level-details .table strong {
+    font: normal normal 500 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.card-level .footer {
+    background: #425B95 0% 0% no-repeat padding-box;
+    min-height: 115px;
+    padding: 28px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enter-amount-input {
+    width: 280px;
+    position: relative;
+}
+
+.input-lable {
+    position: absolute;
+    right: 20px;
+    top: 19px;
+    font: normal normal 500 18px/26px Assistant;
+    letter-spacing: 0px;
+    color: #113E7B;
+    content: '';
+}
+
+.card-level label {
+    font: normal normal bold 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding-left: 4px;
+    margin-bottom: 8px;
+}
+
+.enter-amount-input input {
+    width: 100%;
+    background: #6D80C4 0% 0% no-repeat padding-box;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.enter-amount-input input::placeholder {
+    font: normal normal medium 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #113E7B;
+}
+
+.card-level .body-content {
+    padding: 0 28px !important;
+}
+
+.compare-level {
+    background: #0B2275 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+    min-height: 534px;
+    padding: 24px 30px;
+    margin-bottom: 57px;
+    display: none;
+}
+
+.show-compare-level .compare-level {
+    display: block;
+}
+
+.compare-level .header-top {
+    background: #6D80C4 0% 0% no-repeat padding-box;
+    padding: 9px 12px;
+    border-radius: 8px;
+    min-height: 83px;
+    display: flex;
+}
+
+.card-level .grid-box {
+    margin-bottom: 30px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    margin-bottom: 70px;
+}
+
+.profit-calculator .card-level {
+    padding: 52px 0;
+    min-height: 534px;
+}
+
+.profit-calculator .card-level strong {
+    font: normal normal bold 24px/17px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.profit-calculator .card-level p {
+    font: normal normal normal 20px/17px Assistant;
+    letter-spacing: 0px;
+    color: #6D80C4;
+    margin-bottom: 70px;
+}
+
+.card-level .footer .success-rate {
+    color: #1FD3A4;
+}
+
+.card-level .footer p {
+    font: normal normal normal 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF
+}
+
+/* .card-level .nav-pills{
+    background-color: #6D80C4 !important;
+} */
+.upgrading-alert {
+    background: #113E7B 0% 0% no-repeat padding-box;
+    /* width: 1540px; */
+    min-height: 110px;
+    padding: 36px 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 54px;
+}
+
+.upgrading-alert .msg {
+    width: 1100px;
+}
+
+.upgrading-alert p {
+    font: normal normal normal 14px/18px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin: 4px;
+}
+
+.alert-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #6D80C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-profile .card {
+    background: #425B95 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+    width: 480px;
+    min-height: 117px;
+    padding: 41px 33px;
+}
+
+.card-profile .card strong {
+    font: normal normal bold 24px/17px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    line-height: 28px;
+    min-width: 170px;
+    /* min-width: 300px; */
+}
+
+/* .level-tabs .nav-pills .nav-link,
+.header-top .nav-pills .nav-link {
+    background: #0B2275 0% 0% no-repeat padding-box;
+    min-width: 145px;
+    min-height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+} */
+
+.card-level .card-body {
+    padding: 27px 0;
+}
+
+.account-level-details .top-label {
+    border: 1px solid #6D80C45E;
+    border-radius: 10px;
+    min-height: 79px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-level .top-label h2 {
+    font: normal normal bold 24px/23px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.title-circle img {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+}
+
+.card-level strong {
+    font: normal normal bold 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.card-level .dropdown button,
+.header-top .dropdown button,
+.card-level .dropdown button:active,
+.header-top .dropdown button:active {
+    background: #6D80C4 0% 0% no-repeat padding-box;
+    padding: 14px;
+    width: 225px;
+}
+
+.account-level-details .deposit-details .css-1s2u09g-control,
+.account-level-details .deposit-details .css-1pahdxg-control {
+    border-radius: 10px;
+}
+
+.card-level .btn-dropdown span {
+    font: normal normal medium 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+@media (min-width: 1400px) {
+
+    .card-profile .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 1800px) {
+
+    .account-level-details .card-profile .head-top,
+    .card-profile .card,
+    .account-level-details .card-profile .head-top,
+    .account-level-details .card-profile,
+    .account-level-details .card-level,
+    .enter-amount-input,
+    .card-level .dropdown button,
+    .upgrading-alert {
+        width: 100%;
+    }
+
+    .progress-level {
+        /* padding: 257px 24px 67px; */
+        padding: 180px 24px 57px;
+    }
+}
+
+@media (max-width: 1695px) {
+    .card-profile .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 6px;
+    }
+
+    .card-profile .card strong {
+        font: normal normal 600 16px/17px Assistant;
+    }
+
+}
+
+@media (max-width: 1199px) {
+
+    .card-profile .card {
+        min-height: 90px;
+    }
+
+    .empty-tag {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-top .dropdown button {
+        width: 100%;
+    }
+
+    .level-tabs .nav-pills .nav-link {
+        margin-bottom: 10px;
+    }
+
+    .title-circle {
+        height: 155px;
+        width: 155px;
+    }
+
+
+    .account-level-details .card-profile .head-top button.btn-triage-div.btn-triage {
+        top: 6%;
+        /* left: 50%; */
+        right: 2%;
+    }
+
+    .account-level-details .card-profile .head-top strong {
+        top: 7px;
+    }
+}
+
+@media (max-width: 567px) {
+    .card-level .footer p {
+        font: normal normal normal 15px/19px Assistant;
+    }
+}
+
+@media (max-width: 480px) {
+    .account-level-details .card-profile .head-top button.btn-triage-div.btn-triage {
+        /* top: 248px; */
+        /* left: 50%; */
+        top: 270px;
+        right: 2%;
+        left: 2%;
+    }
+
+    .level-tabs button,
+    .header-top button,
+    .level-tabs .dropdown button,
+    .header-top .dropdown button {
+        /* padding: 15px 5px !important; */
+        margin: 8px;
+    }
+
+    .account-level-details .card-level .level-tabs {
+        padding: 9px 0;
+    }
+
+    .card-profile .card strong {
+        font: normal normal bold 14px/17px Assistant;
+        line-height: 18px;
+    }
+
+    .account-level-details .card-level {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .card-level .top-label h2 {
+        padding: 10px;
+    }
+
+    .header-top button,
+    .level-tabs .dropdown button,
+    .header-top .dropdown button,
+    .level-tabs button {
+        margin: 9px !important;
+        padding: 15px 5px !important;
+    }
+
+    .header-top .dropdown button {
+        width: 100%;
+    }
+
+    .progress-level strong {
+        font: normal normal bold 13px/18px Assistant;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .header-top button,
+    .level-tabs .dropdown button,
+    .header-top .dropdown button,
+    .level-tabs button {
+        margin: 4px !important;
+    }
+
+}

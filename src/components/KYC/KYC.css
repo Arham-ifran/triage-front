@@ -1,0 +1,409 @@
+.kyc {
+    padding-bottom: 50px;
+}
+
+.kyc-details .email-address {
+    font: normal normal normal 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #6D80C4;
+}
+.react-date-picker__wrapper{
+    border-radius: 4px;
+}
+.about-level {
+    background: #0B2275 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #00000029;
+    min-height: 500px;
+    border-radius: 8px;
+    /* background-image: url(../../assets/images/cover-photo.png); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+select.form-select,
+select:hover {
+    border: 1px solid #6D80C4 !important;
+    width: 100%;
+    padding: 10px 30px !important;
+    background-color: transparent !important;
+    color: #ffffff9a;
+}
+
+.react-calendar__tile:disabled {
+    z-index: 2;
+    border: none !important;
+}
+
+.dropdown-item {
+    color: #fff !important;
+}
+
+.react-calendar__month-view__days__day,
+.react-calendar__navigation button,
+.react-calendar__year-view__months button,
+.react-calendar__decade-view__years button,
+.react-calendar__century-view__decades button {
+    background-color: transparent !important;
+    border: none !important;
+    color: black;
+    padding: 0;
+}
+
+.react-date-picker__calendar {
+    z-index: 3;
+}
+
+.react-date-picker__button {
+    padding: 0% !important;
+    background-color: transparent !important;
+}
+
+.react-date-picker__button svg {
+    stroke: white !important;
+    padding: 0% !important;
+}
+
+.react-date-picker__wrapper {
+    border: 1px solid #6D80C4;
+    width: 100%;
+    padding: 10px 10px 10px 0;
+    background-color: transparent;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.react-date-picker {
+    width: 100%;
+}
+
+input.react-date-picker__inputGroup__input.react-date-picker__inputGroup__month,
+.input.react-date-picker__inputGroup__input.react-date-picker__inputGroup__day,
+.react-date-picker__inputGroup input {
+    border: 0;
+}
+
+option {
+    background-color: #0B2275;
+}
+
+.phone .input-group .btn,
+.address .input-group .btn {
+    background-color: transparent;
+    border: 1px solid #6D80C4;
+}
+
+.phone .input-group .btn:focus,
+.address .input-group .btn:focus {
+    background-color: transparent;
+    border: 1px solid #6D80C4 !important;
+}
+
+.additional-files strong,
+.address strong,
+.passport strong {
+    font: normal normal bold 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+    display: block;
+}
+
+.additional-files p,
+.address p,
+.passport p {
+    font: normal normal normal 18px/23px Assistant;
+    letter-spacing: 0px;
+    color: #6D80C4;
+    margin-bottom: 29px;
+}
+
+.additional-files .card,
+.address .card,
+.passport .card {
+    background: #6D80C463 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    width: 784px;
+    min-height: 251px;
+    margin-bottom: 20px;
+}
+
+.additional-files .card span,
+.address .card span,
+.passport .card span {
+    font: normal normal normal 14px/18px Assistant;
+    letter-spacing: 0px;
+    color: #6D80C4;
+}
+
+.address label {
+    font: normal normal normal 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+
+.additional-files input[type="file"],
+.address input[type="file"],
+.passport input[type="file"] {
+    display: none;
+}
+
+.kyc {
+    min-width: calc(100% - 280px);
+}
+
+.additional-files label,
+.address label,
+.passport label {
+    cursor: pointer;
+}
+
+.address .css-1s2u09g-control {
+    border: 1px solid #6D80C4 !important;
+    width: 100% !important;
+    padding: 10px !important;
+    /* padding: 10px 30px !important; */
+}
+
+.address .css-tj5bde-Svg {
+    color: #6D80C4;
+}
+.card-img-uploader{border:1px solid rgba(255,255,255,0.36);border-radius: 5px;}
+.card-img-uploader img {
+    width: 484px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.address .css-1okebmr-indicatorSeparator {
+    border: 1px solid #6D80C4;
+}
+
+.passport .card,
+.card-img-uploader img {
+    width: 484px;
+}
+
+.personal-document .tabs-sec {
+    background: #021761 0% 0% no-repeat padding-box;
+    border-radius: 8px !important;
+    /* width: 480px; */
+    padding: 10px;
+}
+
+.country-code-select.triage-select__control.country-code-select {
+    width: 180px;
+}
+
+.country-code-select.triage-select__menu {
+    height: 184px !important;
+    overflow: hidden !important;
+}
+
+.triage-select__input {
+    color: #ffff !important;
+}
+
+.passport span {
+    font: normal normal normal 18px/23px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.personal-document .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: #6D80C463 0% 0% no-repeat padding-box;
+}
+
+.personal-document .nav-pills .nav-item .nav-link.disabled{
+    cursor: not-allowed;
+    background:#18275b;
+    opacity:0.5;
+}
+.uploaded-files {
+    width: 784px;
+    min-height: 251px;
+}
+
+.country-code-select__value-container.css-319lph-ValueContainer,
+.phone-number-select .country-code-select__value-container {
+    border: 1px solid #6D80C4;
+    width: 100%;
+    /* padding: 10px 30px; */
+    background-color: transparent;
+    color: #FFF;
+    /* display: none; */
+    border: none;
+}
+
+.phone .css-1hb7zxy-IndicatorsContainer,
+.phone-number-select .country-code-select__indicators {
+    /* border: 1px solid #6D80C4; */
+    background-color: transparent;
+}
+
+.phone .css-1okebmr-indicatorSeparator,
+.phone-number-select .country-code-select__indicator-separator {
+    display: none;
+}
+
+/* .phone .css-26l3qy-menu {
+    width: 180px;
+} */
+.phone-number-select .country-name-selector{min-width:300px;}
+.phone .css-1s2u09g-control,
+.phone-number-select .country-code-select__control{
+    border: 1px solid #6D80C4 !important;
+}
+
+.phone select {
+    width: 100%;
+}
+
+.phone .css-tj5bde-Svg,
+.phone .css-14el2xx-placeholder,
+.phone-number-select .country-code-select__indicator svg {
+    /* color: #6D80C4; */
+    color: #fff;
+}
+
+.phone .css-qc6sy-singleValue,
+.phone-number-select .country-code-select__single-value {
+    color: #fff;
+}
+
+.phone .css-319lph-ValueContainer.show {
+    color: black;
+}
+.account-inputs.phone-number-select.d-flex.flex-wrap{
+    width: 100%;
+}
+.phone .css-6j8wv5-Input,
+.phone-number-select .country-code-select__input-container {
+    color: white !important;
+}
+
+.phone .css-1s2u09g-control {
+    background-color: transparent !important;
+}
+
+.phone .css-1gtu0rj-indicatorContainer {
+    color: #fff;
+}
+
+.phone .css-1pahdxg-control {
+    background-color: transparent !important;
+    border: 1px solid #6D80C4 !important;
+    box-shadow: none !important;
+    padding: 10px !important;
+    /* border-right: 1px solid transparent !important; */
+    border-top-right-radius: 0% !important;
+    border-bottom-right-radius: 0% !important;
+}
+.country-code-select__menu{
+    width: 100% !important;
+}
+.phone-number-select input,
+.phone-number-select input:focus,
+.phone-number-select input:focus-within {
+    border-bottom-left-radius: 0%;
+    border-top-left-radius: 0%;
+}
+
+.phone-number-select .css-1s2u09g-control,
+.phone-number-select .country-code-select__control {
+    /* border-right: 0 !important; */
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    padding: 10px !important;
+    background: none !important;
+}
+input.number-holder{width: 470px;}
+@media (max-width: 1800px) {
+
+    .additional-files .card,
+    .address .card {
+        width: 100%;
+    }
+
+    .country-code-select.triage-select__control.country-code-select {
+        width: 100%;
+    }
+    .phone .account-inputs{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1399px) {
+
+    .passport .card,
+    .card-img-uploader img {
+        width: 440px;
+    }
+}
+
+@media (max-width: 1320px) {
+
+    .passport .card,
+    .card-img-uploader img {
+        width: 340px;
+    }
+}
+
+@media (max-width: 1199px) {
+
+    .passport .card,
+    .card-img-uploader img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .upload-div {
+        width: 100%;
+    }
+    .country-name-selector,
+    .account-inputs .number-holder,
+    .number-holder-div {
+        width: 100%;
+    }
+    .additional-files .file-content{width: 100%;}
+}
+
+@media (max-width: 767px) {
+
+    .country-name-selector,
+    .account-inputs .number-holder,
+    .number-holder-div {
+        width: 100%;
+    }
+
+    input.number-holder,
+    input.country-code {
+        padding: 10px 6px;
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+        /* border-top: 0; */
+    }
+    
+    input.react-date-picker__inputGroup__input.react-date-picker__inputGroup__month, .input.react-date-picker__inputGroup__input.react-date-picker__inputGroup__day, .react-date-picker__inputGroup input{padding: 0 4px;}
+    .phone-number-select .css-1s2u09g-control {
+        /* border-right: 0 !important; */
+        border-top-right-radius: 4px !important;
+        border-bottom-right-radius: 4pxpx !important;
+        padding: 10px !important;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+        border-bottom: 0 !important;
+    }
+    .phone .css-1pahdxg-control {border-bottom: 0 !important;}
+ 
+}
+@media (max-width: 360px) {
+    .kyc-details .email-address {
+        font: normal normal normal 13px/26px Assistant
+    }
+    .phone-number-select .country-name-selector{min-width:100%;}
+}
